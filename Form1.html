@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Form</title>
+        <link href ="HTML/style.css" type = "text/css" rel= "stylesheet">
+    </head>
+    <body>
+        <h1>This page has a form</h1>
+        <form action ="https://example.com/login.php">
+            <p>username:<input name ="username" type ="text" maxlength ="17"></p>
+            <p>password:<input type ="password" name ="password" maxlength="17"></p>
+            <p>What do you think about this website?</p>
+            <textarea rows="4" cols="20">I think it is....</textarea>
+            <p>What language did you start coding with?<br>
+            <input type = "radio" name ="language" value ="Python">Python
+            <input type ="radio" name ="language" value ="C">C
+            <input type ="radio" name ="language" value ="Java">Java
+            <input type ="radio" name ="language" value ="C++">C++
+            <input type ="radio" name ="language" value ="C#">C#
+            <br>
+            Other(Type below):
+            <br>
+            <input type ="text" name ="language" maxlength="15">
+            </p>
+            <p>What languages do you code in?<br>
+            <input type ="checkbox" name ="lang" value ="C">C
+            <input type ="checkbox" name ="lang" value ="C++">C++
+            <input type ="checkbox" name ="lang" value ="js">JavaScript
+            <input type ="checkbox" name ="lang" value ="C#">C#
+            <input type ="checkbox" name ="lang" value ="Python">Python
+            <input type ="checkbox" name ="lang" value ="Java">Java
+            </p>
+        </form>
+    </body>
+</html>
